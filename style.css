@@ -92,4 +92,10 @@ ytd-compact-video-renderer #video-title.ytd-compact-video-renderer {
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
 }
+
+/* Уменьшение заголовка видео в полноэкранном режиме при наведении */
+.ytp-big-mode .ytp-title-text:hover {
+	font-size: 1.3rem;
+	opacity: .5;
+}
 }
