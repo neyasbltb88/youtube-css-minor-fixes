@@ -67,6 +67,23 @@ ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer,
     max-height: 82px;
 }
 
+/* Увеличение места под название видео в тултипе при наведении в плеере 
+на кнопку следующего видео в полноэкранном режиме */
+.ytp-big-mode .ytp-tooltip.ytp-text-detail.ytp-preview {
+	width: 500px;
+}
+
+.ytp-big-mode .ytp-tooltip.ytp-text-detail.ytp-preview .ytp-tooltip-text-wrapper {
+	max-width: 240px;
+	max-height: 122px;
+}
+
+.ytp-big-mode .ytp-tooltip.ytp-text-detail .ytp-tooltip-title {
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	margin-bottom: 1px;
+}
+
 /* Три строки для названия видео в правой колонке предлагаемых видео под основным плеером */
 ytd-compact-video-renderer #video-title.ytd-compact-video-renderer {
     display: -webkit-box;
