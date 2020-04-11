@@ -47,9 +47,11 @@ ytd-video-primary-info-renderer[has-date-text_] #info-text.ytd-video-primary-inf
 
 /* Полные имена видео, а не обрезанные 2-мя строками по высоте */
 ytd-grid-video-renderer #video-title.yt-simple-endpoint.ytd-grid-video-renderer,
-#video-title.yt-simple-endpoint.ytd-grid-video-renderer {
+#video-title.yt-simple-endpoint.ytd-grid-video-renderer,
+#video-title.ytd-rich-grid-video-renderer,
+ytd-rich-grid-video-renderer[mini-mode] #video-title.ytd-rich-grid-video-renderer {
 	display: block;
-    max-height: max-content;
+    max-height: initial;
 }
 
 .iv-card-video h2, .iv-card-episode h2, .iv-card-movie h2, .iv-card-playlist h2 {
